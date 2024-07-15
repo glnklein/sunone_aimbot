@@ -1,12 +1,12 @@
 <div align="center">
 
 # YOLOv8 Aimbot
-[![Python Version](https://img.shields.io/badge/Python-3.11.6-FFD43B?logo=python)](https://github.com/SunOner/sunone_aimbot)
-[![License MIT](https://badgen.net/github/license/SunOner/sunone_aimbot)](https://github.com/SunOner/sunone_aimbot/blob/main/LICENSE)
-[![Github stars](https://img.shields.io/github/stars/SunOner/sunone_aimbot?color=ffb500)](https://github.com/SunOner/sunone_aimbot)
+[![Python Version](https://img.shields.io/badge/Python-3.11.6-FFD43B?logo=python)](https://glnklein/SunOner/sunone_aimbot)
+[![License MIT](https://badgen.net/github/license/SunOner/sunone_aimbot)](https://glnklein/SunOner/sunone_aimbot/blob/main/LICENSE)
+[![Github stars](https://img.shields.io/github/stars/SunOner/sunone_aimbot?color=ffb500)](https://glnklein/SunOner/sunone_aimbot)
 [![Discord server](https://badgen.net/discord/online-members/sunone)](https://discord.gg/sunone)
   <p>
-    <a href="https://github.com/SunOner/sunone_aimbot/releases" target="_blank">
+    <a href="https://glnklein/SunOner/sunone_aimbot/releases" target="_blank">
       <img width="75%" src="https://raw.githubusercontent.com/SunOner/sunone_aimbot/main/media/one.gif"></a>
   </p>
 </div>
@@ -17,24 +17,24 @@ YOLOv8 Aimbot is an AI-powered aim bot for first-person shooter games. It levera
 > Use it at your own risk, we do not guarantee that you may be blocked!
 
 > [!NOTE] 
-> This application only works on Nvidia graphics cards. AMD support is testing. See [AI_enable_AMD](https://github.com/SunOner/sunone_aimbot?tab=readme-ov-file#ai) option.
+> This application only works on Nvidia graphics cards. AMD support is testing. See [AI_enable_AMD](https://glnklein/SunOner/sunone_aimbot?tab=readme-ov-file#ai) option.
 > The recommended graphics card for starting and more productive and stable operation starts with the rtx 20 series.
 
 ## Requirements
-Before you get started, make sure you have the following prerequisites installed and pay attention to the versions in [Tested Environment](https://github.com/SunOner/sunone_aimbot?tab=readme-ov-file#tested-environment) block, this may cause errors in launching the aimbot.
+Before you get started, make sure you have the following prerequisites installed and pay attention to the versions in [Tested Environment](https://glnklein/SunOner/sunone_aimbot?tab=readme-ov-file#tested-environment) block, this may cause errors in launching the aimbot.
 
 - Information in English:
-  - [Auto-Install guide](https://github.com/SunOner/sunone_aimbot/blob/main/docs/en/helper_en.md)
-  - [Self install guide](https://github.com/SunOner/sunone_aimbot/blob/main/docs/en/install_guide_en.md)
-  - [Questions and answers](https://github.com/SunOner/sunone_aimbot/blob/main/docs/en/questions_en.md)
-  - [Arduino setup](https://github.com/SunOner/HID_Arduino)
+  - [Auto-Install guide](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/en/helper_en.md)
+  - [Self install guide](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/en/install_guide_en.md)
+  - [Questions and answers](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/en/questions_en.md)
+  - [Arduino setup](https://glnklein/SunOner/HID_Arduino)
   - [Discord server](https://discord.gg/sunone)
 <br></br>
 - Информация на Русском языке:
-  - [Инструкция по автоматической установке](https://github.com/SunOner/sunone_aimbot/blob/main/docs/ru/helper_ru.md)
-  - [Инструкция по установке в ручную](https://github.com/SunOner/sunone_aimbot/blob/main/docs/ru/install_guide_ru.md)
-  - [Вопросы и ответы](https://github.com/SunOner/sunone_aimbot/blob/main/docs/ru/questions_ru.md)
-  - [Установка ардуино](https://github.com/SunOner/HID_Arduino)
+  - [Инструкция по автоматической установке](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/ru/helper_ru.md)
+  - [Инструкция по установке в ручную](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/ru/install_guide_ru.md)
+  - [Вопросы и ответы](https://glnklein/SunOner/sunone_aimbot/blob/main/docs/ru/questions_ru.md)
+  - [Установка ардуино](https://glnklein/SunOner/HID_Arduino)
   - [Discord сервер](https://discord.gg/sunone)
 <br></br>
 - To launch the aimbot after all installations, type `py run.py` or `py launcher.py` to open gui settings.
@@ -51,7 +51,7 @@ Before you get started, make sure you have the following prerequisites installed
 </table>
 
 ## Options
-The behavior of the aim bot can be configured via the [`config.ini`](https://github.com/SunOner/sunone_aimbot/blob/main/config.ini) file. Here are the available options:
+The behavior of the aim bot can be configured via the [`config.ini`](https://glnklein/SunOner/sunone_aimbot/blob/main/config.ini) file. Here are the available options:
 
 ### Object Search window resolution:
 - detection_window_width `int`: Horizontal resolution of the object search window.
@@ -74,7 +74,7 @@ The behavior of the aim bot can be configured via the [`config.ini`](https://git
 - disable_headshot `bool`: Disable head targerting.
 
 ### Hot keys:
-- The names of all the keys are [here](https://github.com/SunOner/sunone_aimbot/blob/main/logic/buttons.py). Type `None` is empty button.
+- The names of all the keys are [here](https://glnklein/SunOner/sunone_aimbot/blob/main/logic/buttons.py). Type `None` is empty button.
 - hotkey_targeting `str`: Aiming at the target. Supports multi keys, for example `hotkey_targeting = RightMouseButton,X2MouseButton`
 - hotkey_exit `str`: Exit.
 - hotkey_pause `str`: Pause AIM.
@@ -86,7 +86,7 @@ The behavior of the aim bot can be configured via the [`config.ini`](https://git
 - mouse_fov_width  `int`: The current horizontal value of the viewing angle in the game.
 - mouse_fov_height  `int`: The current vertical value of the viewing angle in the game.
 - mouse_lock_target `bool`: True: Press once to permanently aim at the target, press again to turn off the aiming. False: Hold down the button to constantly aim at the target.
-- mouse_auto_shoot `bool`: Automatic shooting. (For some games need [arduino](https://github.com/SunOner/HID_Arduino)).
+- mouse_auto_shoot `bool`: Automatic shooting. (For some games need [arduino](https://glnklein/SunOner/HID_Arduino)).
 - mouse_auto_aim `bool`: Automatic targeting.
 - mouse_ghub `bool`: Uses Logitech GHUB exploit for mouse movement. If the value is False, native win32 library is used for movement.
 - mouse_triggerbot `bool`: Automatic shooting at a target if it is in the scope, requires the `mouse_auto_shoot` option enabled, and aiming will also be automatically turned off.
@@ -104,7 +104,7 @@ The behavior of the aim bot can be configured via the [`config.ini`](https://git
 - AI_conf `float`: How many percent is AI sure that this is the right goal.
 - AI_device `int` or `str`: Device to run on, `0`, `1`... or `cpu`.
 - AI_enable_AMD `bool`: Enable support Amd GPUs. Install ROCm and pytorch. See [AMD docs](https://rocm.docs.amd.com/projects/install-on-windows/en/latest/how-to/install.html).
-- AI_mouse_net `bool`: Use a neural network to calculate mouse movements. See [this repository](https://github.com/SunOner/mouse_net).
+- AI_mouse_net `bool`: Use a neural network to calculate mouse movements. See [this repository](https://glnklein/SunOner/mouse_net).
 
 ### Debug window:
 - show_window `bool`: Shows the OpenCV2 window for visual feedback.
@@ -151,10 +151,10 @@ yolo export model="models/sunxds_0.4.1.pt" format=engine device=0 imgsz=480 half
 - If the program is running, everything is detected, but the mouse itself is not aimed at the target, then try running the program as an administrator.
 - Turn off the cv2 debug window, this saves system resources.
 - Do not increase the object search window resolution, this may affect your search speed.
-- If you have started the application and nothing happens, it may be working, close it with the F2 key and change the show_window setting to Yes in the file [config.ini](https://github.com/SunOner/sunone_aimbot/blob/main/config.ini) to make sure that the application is working.
+- If you have started the application and nothing happens, it may be working, close it with the F2 key and change the show_window setting to Yes in the file [config.ini](https://glnklein/SunOner/sunone_aimbot/blob/main/config.ini) to make sure that the application is working.
 
 ## Support the project
 I will post new models [here](https://boosty.to/sunone).
 
 ## License
-This project is licensed under the MIT License. See **[LICENSE](https://github.com/SunOner/sunone_aimbot/blob/main/LICENSE)** for details
+This project is licensed under the MIT License. See **[LICENSE](https://glnklein/SunOner/sunone_aimbot/blob/main/LICENSE)** for details
