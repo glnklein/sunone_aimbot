@@ -1,6 +1,6 @@
 <div align="center">
 
-# YOLOv8 Aimbot
+# YOLOv8 Aimbot V 0.5.2 ( Updates Deaktiviert ) Original from https://github.com/SunOner/sunone_aimbot
 [![Python Version](https://img.shields.io/badge/Python-3.11.6-FFD43B?logo=python)](https://github.com/SunOner/yolov8_aimbot)
 [![License MIT](https://badgen.net/github/license/SunOner/yolov8_aimbot)](https://github.com/SunOner/yolov8_aimbot/blob/main/LICENSE)
 [![Github stars](https://img.shields.io/github/stars/glnklein/sunone_aimbot?color=ffb500)](https://github.com/glnklein/sunone_aimbot)
